@@ -43,7 +43,7 @@ for i, elem in enumerate(zip(list1, list2)):
     print( f'list1[{i}]: {elem[0]}; list2[{i}]: {elem[1]}' )
 ```
 
-### Acceder a los Elementos de una Lista
+## Acceder a los Elementos de una Lista
 ```python
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
@@ -60,7 +60,7 @@ lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 Nota: el primer elemento de toda lista está indexado en el 0.
 
-### Operar con Listas
+## Operar con Listas
 ```python
 list1 = [1, 2, 3, 4]
 list2 = ['a', 'b', 'c', 'd']
@@ -80,7 +80,7 @@ list3 = ['A', 'B']
 | max(lista)   | Devuelve el el elemento mayor de la lista           | `max(list1)` -> 4 |
 | del(lista[n:m] | elimina de las lista los elementos del n-esimo a m-esimo. | `del(list1[1,3])` -> [1, 4] |
 
-### Métodos de Listas
+## Métodos de Listas
 ```python
 lista = [1, 2, 3]
 ```
