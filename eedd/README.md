@@ -1,11 +1,7 @@
-
 # Estructuras de Datos
+[Arrays](arrays)
 
-
-
-
-## Arrays
-
+## [Arrays][arrays]
 Los arrays de Python se llaman _listas_ (elementos editables) o _tuplas_ (elementos no editables).
 
 ```python
