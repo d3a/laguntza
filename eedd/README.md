@@ -11,5 +11,9 @@
   - [Métodos de Listas](listas.md#métodos-de-listas)
 - [Tuplas](tuplas.md)
   - [Declarar Tuplas](tuplas.md#declarar-tuplas)
+- [conjuntos](conjuntos.md)
+  - [Declarar Conjuntos](conjuntos.md#declarar-conjuntos)
+- [Diccionarios](diccionarios.md)
+  - [Declarar Diccionarios](diccionarios.md#declarar-diccionarios)
 
 ## Estructuras de Datos
