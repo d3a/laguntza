@@ -35,7 +35,6 @@ set = {1, 2, 3}
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
 | add(elem)             | | |
 | update(lista)         | | |
-| index(elem[, i[, j]]) | | |
 | remove(elem)          | Elimina el elemento _elem_. Si el elemento no existe lanza excepcion _KeyError_ | |
 | discar(elem)          | Elimina el elemento _elem_. Si el elemento no existe no se lanza excepcion      | |
 | union(cto2)           | Igual que `cto1 \| cto2` | |
