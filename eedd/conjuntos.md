@@ -2,8 +2,8 @@
 
 ## Declarar Conjuntos
 ```python
-  lista = set()
-  lista = 
+  cto = set()
+  cto = 
 ```
 Los elementos pueden ser de cualquier tipo:
 ```python
