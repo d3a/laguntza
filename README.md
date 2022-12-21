@@ -1,6 +1,6 @@
 # python
 
-## Bibliografia:
+## Contenidos:
 [Estructuras de Datos](/eedd#readme)
 
 
