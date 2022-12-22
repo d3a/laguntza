@@ -14,10 +14,10 @@ class Nodo():
         return f'{self.contenido}'
 
     def PrintNodo(self):
-        salida = f'Nodo:{self.contenido}I'
+        salida = f'Nodo:{self.contenido}|'
         for elem in self.hijos:
             salida += f'{elem}|'
-        return salida
+        print(salida)
     
     def EsRaiz(self): return self.padre == self
     def TieneHijos(self): return len(self.hijos) != 0
@@ -45,7 +45,7 @@ class Arbol():
             self.raiz = Nodo(contenido,hijos)
             self.puntero = self.raiz if puntero == None else puntero
         self.raiz.PrintNodo()
-
+        
     # Creates iterator object
     # Called when iteration is initialized
     def __iter__(self):
@@ -74,7 +74,6 @@ class Arbol():
             aux = hijo
         aux.padre = self.puntero
         self.puntero = aux
-        aux.PrintNodo()
     
     def MoverPuntero(self, nodo=None):
         if nodo == None or type(nodo) != Nodo:
@@ -111,6 +110,6 @@ n2 = Nodo("Nodo52", n21)
 n11 = Nodo("Nodo511")
 n1 = Nodo("Nodo51", n11)
 n = Nodo("Nodo5", (n1, n2))
-a = Arbol( "Arbol", n )
+a = Arbol("Arbol", n)
 
 a.PrintArbol()
