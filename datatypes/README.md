@@ -3,6 +3,13 @@
 ## Tipos de Datos simples
 
 ## Tipos de Datos complejos
+| Datatype     | Constructor |    | Unico     | Varios                     | Dup | Mut | Idx |
+|--------------|-------------|----|-----------|----------------------------|-----|-----|-----|
+| lista        | `list()`    | [] | [elem]    | [elem1, elem2, ..., elemN] |  /  |  /  | int |
+| tupla        | `tuple()`   | () | (elem,)   | (elem1, elem2, ..., elemN) |  /  |  x  | int |
+| diccionario  | `dict()`    | {} | {key:val} | {k1:v1, k2:v2, ..., kN:vN} |  x  |  /  | no  |
+| conjunto     | `set()`     | -- | {elem}    | {elem1, elem2, ..., elemN} |  x  |  /  | key |
+
 - [Listas](listas.md)
   - [Declarar Listas](listas.md#declarar-listas)
   - [Recorrer Listas](listas.md#recorrer-listas)

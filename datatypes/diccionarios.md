@@ -3,7 +3,7 @@
 ## Declarar Diccionarios
 ```python
   dicc = dict()
-  dicc = ?¿
+  dicc = {}
 ```
 Los elementos pueden ser de cualquier tipo:
 ```python
