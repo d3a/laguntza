@@ -1,6 +1,19 @@
 # Estructuras de Datos
 
 ## Tipos de Datos simples
+- Secuencias binarias
+  - boolean
+  - byte
+  - bytearray
+  - memoryview
+- Numéricos
+  - int
+  - float
+  - complex
+  - range
+- Cadenas de carateres
+  - str
+
 
 ## Tipos de Datos complejos
 | Datatype     | Constructor |    | Unico     | Varios                     | Idx | Dup | Mut |
@@ -26,3 +39,6 @@
   - [Métodos de Conjuntos](conjuntos.md#métodos-de-conjuntos)
 
 ## Estructuras de Datos
+- Árboles
+- Colas
+- Pilas
