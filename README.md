@@ -1,7 +1,8 @@
 # python
 
 ## Contenidos:
-* [Estructuras de Datos](/eedd#readme)
+* [Estructuras de Datos](/datatypes/README.md)
+* [Clases](/classes/README.md)
 
 
 ## Bibliografia:
