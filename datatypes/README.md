@@ -13,6 +13,7 @@
   - range
 - Cadenas de carateres
   - str
+    - [Métodos](https://www.w3schools.com/python/python_ref_string.asp) :arrow_upper_right:
 
 
 ## Tipos de Datos complejos
@@ -28,15 +29,17 @@
   - [Recorrer Listas](listas.md#recorrer-listas)
   - [Acceder a los Elementos de una Lista](listas.md#acceder-a-los-elementos-de-una-lista)
   - [Operar con Listas](listas.md#operar-con-listas)
-  - [Métodos de Listas](listas.md#métodos-de-listas)
+  - [Métodos de Listas](https://www.w3schools.com/python/python_ref_list.asp) :arrow_upper_right:
 - [Tuplas](tuplas.md)
   - [Declarar Tuplas](tuplas.md#declarar-tuplas)
+  - [Métodos](https://www.w3schools.com/python/python_ref_tuple.asp) :arrow_upper_right:
 - [Diccionarios](diccionarios.md)
   - [Declarar Diccionarios](diccionarios.md#declarar-diccionarios)
+  - [Métodos](https://www.w3schools.com/python/python_ref_dictionary.asp) :arrow_upper_right:
 - [Conjuntos](conjuntos.md)
   - [Declarar Conjuntos](conjuntos.md#declarar-conjuntos)
   - [Operaciones de Conjuntos](conjuntos.md#operaciones-de-conjuntos)
-  - [Métodos de Conjuntos](conjuntos.md#métodos-de-conjuntos)
+  - [Métodos](https://www.w3schools.com/python/python_ref_set.asp) :arrow_upper_right:
 
 ## Estructuras de Datos
 - Árboles
