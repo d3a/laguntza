@@ -1,4 +1,4 @@
 #Cuaderno de BASH
 
 ## Scripting
-### [Variables](bash/workspaces/laguntza/bash/scripting/variables.md)
+### [Variables](bash/scripting/variables.md)
