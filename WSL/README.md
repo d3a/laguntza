@@ -17,7 +17,6 @@
 
 ## Cambiar hostname
 1. Crear fichero ```/etc/wsl.conf```
-
 ```
 [network]
 hostname = <nuevo-nombre>
