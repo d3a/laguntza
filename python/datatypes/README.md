@@ -17,10 +17,11 @@
 
 
 ## Tipos de Datos complejos
+
 | Datatype     | Constructor |    | Unico     | Varios                     | Idx | Dup | Mut |
 |:-------------|:------------|:---|:----------|:---------------------------|:----|:----|:----|
 | lista        | `list()`    | [] | [elem]    | [elem1, elem2, ..., elemN] | int | :ballot_box_with_check: | :ballot_box_with_check:  |
-| tupla        | `tuple()`   | () | (elem,)   | (elem1, elem2, ..., elemN) | int |  :ballot_box_with_check:  | :x: |
+| tupla        | `tuple()`   | () | (elem,)   | (elem1, elem2, ..., elemN) | int | :ballot_box_with_check: | :x: |
 | diccionario  | `dict()`    | {} | {key:val} | {k1:v1, k2:v2, ..., kN:vN} | key | :x: | :ballot_box_with_check:  |
 | conjunto     | `set()`     | -- | {elem}    | {elem1, elem2, ..., elemN} | :x: | :x: | :ballot_box_with_check:  |
 
