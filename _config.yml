@@ -1,8 +1,9 @@
 title: Notas
 description: para salir del paso 
-#remote_theme: pages-themes/hacker@v0.2.0
-remote_theme: pages-themes/midnight@v0.2.0
-#remote_theme: pages-themes/modernist@v0.2.0
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "laguntza"
 plugins:
-  - jekyll-remote-theme
   - jemoji
