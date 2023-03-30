@@ -1,4 +1,4 @@
-# [laguntza](https://d3a.github.io/laguntza/)
+# Indice
 
 ## [bash](https://d3a.github.io/laguntza/bash/)
 ## [git](https://d3a.github.io/laguntza/git/)

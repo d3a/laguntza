@@ -2,5 +2,4 @@ title: Notas
 description: para salir del paso 
 theme: minima
 plugins:
-  - jekyll-remote-theme
   - jemoji
