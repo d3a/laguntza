@@ -31,21 +31,16 @@ $ array+=( nuevo_elemento )
 
 ## Variables predefinidas
 
-```$?```	Código de salida del ultimo comando ejecutado
-
-```$_```	
-
-```$-```	
-
-```$#```	Número de parámetros entregados
-
-```$*```	
-
-```$@```	
-
-```$$```	PID del proceso en ejecución
-
-```$!```	
+```bash
+    $?	# Código de salida del ultimo comando ejecutado
+    $_  # Último argumento del comando anterior
+    $-  # option flags establecidas para el proceso en curso
+    $#	# Número de parámetros entregados
+    $*  # Argumentos del comando, "$*" = "$1 $2 $3 ..."
+    $@  # Argumentos del comando, "$@" = "$1" "$2" "$3" "..."
+    $$	# PID del proceso en ejecución
+    $!	# PID del proceso en background
+```
 
 ## Modificadores de Variables
 
