@@ -1,5 +1,7 @@
 # Variables
+
 ## Asignacion de Variables
+
 ```bash
 $ variable=cadena
 
@@ -17,6 +19,7 @@ $ read VAR < fichero-entrada
 ```
 
 ## Asignacion de  Arrays
+
 ```bash
 $ array=( cero uno dos tres cuatro )
 $ array=( [0]=cero [1]=uno [2]=dos [3]=tres [4]=cuatro )
@@ -26,8 +29,8 @@ $ array[2]=dos
 $ array+=( nuevo_elemento )
 ```
 
-
 ## Variables predefinidas
+
 ```$?```	Código de salida del ultimo comando ejecutado
 
 ```$_```	
@@ -45,6 +48,7 @@ $ array+=( nuevo_elemento )
 ```$!```	
 
 ## Modificadores de Variables
+
 ```${parameter}```	Variable Normal
 
 ```${parameter:-word}```	Devuelve word si parameter no está definido o es nulo.
@@ -58,6 +62,7 @@ $ array+=( nuevo_elemento )
 ```${parameter:offset[:length]}``` Substring. Si offset es negativo, se corta desde atrás.
 
 ```${!nombre_variable}``` Muestra el contenido de la variable cuyo nombre sea el contenido de la variable indicada.
+
 ```bash
 $ variable="Contenido"
 $ nombre_variable=variable
@@ -77,9 +82,9 @@ Contenido
 ```${parameter/pattern/string}```	The pattern is expanded to produce a pattern just as in pathname expansion.  Parameter is expanded and the longest match of pattern against its  value  is  replaced with string.  If Ipattern begins with /, all matches of pattern are replaced with string.  Normally only the first match is replaced.  If pattern begins with #, it must match at the beginning of the expanded value of parameter.  If pattern begins with %, it must match at the end of the expanded value of parameter.  If string is null, matches of pattern are deleted and the / following pattern may be omitted.  If parameter is @ or *, the substitution operation is applied to each positional parameter in turn, and the  expansion  is the resultant list.  If parameter is an array variable subscripted with @ or *, the substitution operation is applied to each member of the array in turn, and the expansion is the resultant list.
 
 ```${variable^}```	A mayúsculas el primer carácter
+
 ```${variable^^}```	Todo a mayúsculas
+
 ```${variable,}```	A minúsculas primer carácter
+
 ```${variable,,}```	Todo a minúsculas 
-
-
-
