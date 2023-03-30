@@ -1,6 +1,6 @@
 # Variables
 ## Asignacion de Variables
-```
+```bash
 $ variable=cadena
 
 $ variable='cadena'
@@ -17,7 +17,7 @@ $ read VAR < fichero-entrada
 ```
 
 ## Asignacion de  Arrays
-```
+```bash
 $ array=( cero uno dos tres cuatro )
 $ array=( [0]=cero [1]=uno [2]=dos [3]=tres [4]=cuatro )
 $ array[0]=cero
@@ -58,7 +58,7 @@ $ array+=( nuevo_elemento )
 ```${parameter:offset[:length]}``` Substring. Si offset es negativo, se corta desde atrás.
 
 ```${!nombre_variable}``` Muestra el contenido de la variable cuyo nombre sea el contenido de la variable indicada.
-```
+```bash
 $ variable="Contenido"
 $ nombre_variable=variable
 $ echo ${!nombre_variable}
