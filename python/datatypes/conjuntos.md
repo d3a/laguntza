@@ -14,12 +14,11 @@ Los elementos deben ser objetos _hashables_:
   cto.add(tupla)  # No da error porque las tuplas son hashables si sus elementos lo son
 ```
 
-
-
 ## Operaciones de Conjuntos
 ```python
 set = {1, 2, 3}
 ```
+
 | Método                | Descripción                                                            | Ejemplo
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
 | cto1 \| cto2          | Union de cto1 y cto2        | |
@@ -31,6 +30,7 @@ set = {1, 2, 3}
 ```python
 set = {1, 2, 3}
 ```
+
 | Método                | Descripción                                                            | Ejemplo
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
 | add(elem)             | | |

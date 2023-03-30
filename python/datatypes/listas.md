@@ -47,6 +47,7 @@ for i, elem in enumerate(zip(list1, list2)):
 ```python
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
 | Elemento     | Descripción                                                | Ejemplo
 | :----------- | :--------------------------------------------------------- | :------------------------- |
 | lista[n]     | Devuelve n-esimo elemento de la lista                      | `lista[2]` -> 3   |
@@ -84,6 +85,7 @@ list3 = ['A', 'B']
 ```python
 lista = [1, 2, 3]
 ```
+
 | Método                | Descripción                                                            | Ejemplo
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
 | clear()               | | |
