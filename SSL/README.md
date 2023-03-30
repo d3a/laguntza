@@ -1,6 +1,7 @@
 # SSL
 
 ## Claves Privadas
+
 Clave privada RSA condificación PEM
 
 (sin encriptación / -des3: con encriptación DES3 / -aes256: con encriptación AES256)
@@ -17,6 +18,7 @@ Clave pública con condificación PEM desde clave privada RSA
 
 ---
 ## Petición Técnica
+
 Comando general
 
 ```openssl req -new -sha256 -key fich.key -out fich.csr```
@@ -40,7 +42,9 @@ Usando otro certificado
 
 ---
 ## Certificados
+
 ### Información
+
 Toda la información de un certificado
 
 ```openssl x509 -in certificado.pem.cer -text```
@@ -62,6 +66,7 @@ Informacion de certificado remoto
 ```openssl s_client -host dominio.con.certificado -port 443 -showcerts 2>&1 | openssl x509 -noout -text```
 
 ### Conversiones
+
 PEM -> DER 
 
 ```openssl x509 -outform der -in certificate.pem -out certificate.der```
@@ -93,10 +98,9 @@ Crear X5C
 
 ```base64 -w 0 certificado_pem_o_der.cer > cadena_x5c.x5c```
 
-
 ---
 ## Comprobacion clave privada/petición técnica/certificados
-```
+```bash
 openssl pkey -pubout -in .\private.key | openssl sha256
 openssl req -pubkey -in .\request.csr -noout | openssl sha256
 openssl x509 -pubkey -in .\certificate.crt -noout | openssl sha256
