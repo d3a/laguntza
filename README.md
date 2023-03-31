@@ -1,7 +1,10 @@
-# Indice
+# Laguntza
 
-## [bash](https://d3a.github.io/laguntza/bash/)
-## [git](https://d3a.github.io/laguntza/git/)
-## [python](https://d3a.github.io/laguntza/python/)
-## [ssl](https://d3a.github.io/laguntza/SSL/)
-## [WSL](https://d3a.github.io/laguntza/WSL/)
+## [GitHub Pages](https://d3a.github.io/laguntza/)
+
+## Indice
+### [bash](bash/)
+### [git](git/)
+### [python]python/)
+### [ssl](SSL/)
+### [WSL](WSL/)

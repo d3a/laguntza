@@ -16,5 +16,9 @@
   - greenlet 1.0+
   - PyPy 7.3.7+
 
+## How-to's
+- [Comando 'flask'](comando-flask.md)
+- [Crear Proyecto](crear-proyecto.md)
+
 ## Referencias
 - [Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/)

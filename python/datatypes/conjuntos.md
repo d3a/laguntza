@@ -27,6 +27,7 @@ set = {1, 2, 3}
 | cto1 ^ cto2           | Elementos de que no son comunes entre cto1 y cto2. La operación es conmutatiuva. | |
 
 ## Métodos de Conjuntos
+
 ```python
 set = {1, 2, 3}
 ```

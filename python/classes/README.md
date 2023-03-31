@@ -1,6 +1,7 @@
 # Classes
 
 ## Estructura Báscia
+
 ```python
 class NombreClase(Herencia1 [,...])
     #Propiedades Estáticas

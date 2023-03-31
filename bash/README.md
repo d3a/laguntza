@@ -2,4 +2,4 @@
 
 ## Scripting
 
-### [Variables](scripting/variables.md)
+### [Variables](variables.md)

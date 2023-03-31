@@ -1,8 +1,11 @@
 # python
 
 ## Contenidos:
-* [Estructuras de Datos](/datatypes/README.md)
-* [Clases](/classes/README.md)
+* [Estructuras de Datos](datatypes/)
+* [Clases](classes/)
+
+## Módulos
+* [Flask](flask/)
 
 
 ## Bibliografia:

@@ -2,6 +2,7 @@
 Las  _listas_ son como los _arrays_ de otros lenguajes. Adminten cualquier tipo de dato.
 
 ## Declarar Listas
+
 ```python
   lista = list()
   lista = [1, 2, 3, 4]
@@ -15,6 +16,7 @@ Los elementos pueden ser de cualquier tipo:
 ```
 
 ## Recorrer Listas
+
 ```python
 lista = [1, 2, 3, 4]
 for elem in lista:
@@ -44,6 +46,7 @@ for i, elem in enumerate(zip(list1, list2)):
 ```
 
 ## Acceder a los Elementos de una Lista
+
 ```python
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
@@ -62,6 +65,7 @@ lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Nota: el primer elemento de toda lista está indexado en el 0.
 
 ## Operar con Listas
+
 ```python
 list1 = [1, 2, 3, 4]
 list2 = ['a', 'b', 'c', 'd']
@@ -82,6 +86,7 @@ list3 = ['A', 'B']
 | del(lista[n:m] | elimina de las lista los elementos del n-esimo a m-esimo. | `del(list1[1,3])` -> [1, 4] |
 
 ## Métodos de Listas
+
 ```python
 lista = [1, 2, 3]
 ```

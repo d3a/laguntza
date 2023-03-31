@@ -59,3 +59,7 @@ PS> wsl --import UbuntoInst2 <ruta>\UbuntoInst2 Ubuntu-20.04.tar
 [user]
 default=<username>
 ```
+
+## [Instalar Docker](docker.md)
+
+## [Instalar kubernetes](kubernetes.md)

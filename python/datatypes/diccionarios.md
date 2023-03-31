@@ -1,6 +1,7 @@
 # Diccionarios
 
 ## Declarar Diccionarios
+
 ```python
   dicc = dict()
   dicc = {}

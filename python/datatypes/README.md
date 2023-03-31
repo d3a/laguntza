@@ -31,6 +31,7 @@
   - [Acceder a los Elementos de una Lista](listas.md#acceder-a-los-elementos-de-una-lista)
   - [Operar con Listas](listas.md#operar-con-listas)
   - [Métodos de Listas](https://www.w3schools.com/python/python_ref_list.asp) :arrow_upper_right:
+  - [Ejemplos](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/listas.py) :arrow_upper_left:
 - [Tuplas](tuplas.md)
   - [Declarar Tuplas](tuplas.md#declarar-tuplas)
   - [Métodos](https://www.w3schools.com/python/python_ref_tuple.asp) :arrow_upper_right:
@@ -41,8 +42,10 @@
   - [Declarar Conjuntos](conjuntos.md#declarar-conjuntos)
   - [Operaciones de Conjuntos](conjuntos.md#operaciones-de-conjuntos)
   - [Métodos](https://www.w3schools.com/python/python_ref_set.asp) :arrow_upper_right:
+  - [Ejemplos](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/conjuntos.py) :arrow_upper_left:
 
 ## Estructuras de Datos
-- Árboles
-- Colas
-- Pilas
+[Código](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/)
+- [Árboles](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/Arboles.py)
+- [Colas](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/Colas.py)
+- [Pilas](https://github.com/d3a/laguntza/blob/main/python/datatypes/code/Pilas.py)
