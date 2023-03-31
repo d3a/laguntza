@@ -5,6 +5,6 @@
 ## Indice
 ### [bash](bash/)
 ### [git](git/)
-### [python]python/)
+### [python](python/)
 ### [ssl](SSL/)
 ### [WSL](WSL/)
