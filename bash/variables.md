@@ -18,17 +18,6 @@ EOM
 $ read VAR < fichero-entrada
 ```
 
-## Asignacion de  Arrays
-
-```bash
-$ array=( cero uno dos tres cuatro )
-$ array=( [0]=cero [1]=uno [2]=dos [3]=tres [4]=cuatro )
-$ array[0]=cero
-$ array[1]=uno
-$ array[2]=dos
-$ array+=( nuevo_elemento )
-```
-
 ## Variables predefinidas
 
 ```bash
@@ -83,3 +72,7 @@ Contenido
 ```${variable,}```	A minúsculas primer carácter
 
 ```${variable,,}```	Todo a minúsculas 
+
+
+
+
