@@ -12,10 +12,10 @@
 		-- bloque para condicion 2 --
 	else
 		-- bloque por defecto --
-    fi
+	fi
 ```
 
-###case
+### case
 ```case word in [ [(] pattern [ | pattern ] ... ) list ;; ] ... esac```
 
 ```bash	

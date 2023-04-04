@@ -17,9 +17,9 @@ $ array+=( nuevo_elemento )
 
 ```${array[*]}```	Escribe todo el array
 
-```${array[0]}```	Escribe el primer elemento del arrays
+```${array[0]}```	Escribe el primer elemento del array
 
-```${array[1]}```	Escribe el segundo elemento del arrays
+```${array[1]}```	Escribe el segundo elemento del array
 
 ```${#array[@]}```	Escribe el número de elementos del array
 
@@ -31,11 +31,11 @@ $ array+=( nuevo_elemento )
 
 ```${array[@]:1:2}```	Muestra los elementos del 1 al 2 del array
 
-```${!array[@]}```	
+```${!array[@]}```	...
 
 ## Recorrer un array
 ```bash
-for index in $(seq 0 $((${#array[@]} - 1))); do
-  ${array[${index}]}
-done
+    for index in $(seq 0 $((${#array[@]} - 1))); do
+        ${array[${index}]}
+    done
 ```
