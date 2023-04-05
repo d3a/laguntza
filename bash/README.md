@@ -4,15 +4,23 @@
 
 - [Variables](variables.md)
 - [Arrays](arrays.md)
-- [Estructuras de contolr](control.md)
+- [Estructuras de control](control.md)
+
+## Linux
+- Recursos
+- Usuarios
+- Sistema de ficheros
+- Ficheros
+- Procesos
+- Red
 
 ## Utilidades
-- [Utilidades de cadenas]
-    - [cut]
-    - [wc]
-    - [sort]
-    - [uniq]
-    - [tr]
+- [Utilidades de cadenas](util_strings.md)
+    - [cut](util_strings.md#cut)
+    - [tr](util_strings.md#tr)
+    - [sort](util_strings.md#sort)
+    - [wc](util_strings.md#wc)
+    - [uniq](util_strings.md#uniq)
 - [gawk]
 - [egrep]
 - [find]
