@@ -1,5 +1,8 @@
 # Estructuras de Datos
 
+## Clases
+- [Estructura de clases](clases.md)
+
 ## Tipos de Datos simples
 - Secuencias binarias
   - boolean

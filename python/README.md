@@ -2,7 +2,6 @@
 
 ## Contenidos:
 * [Estructuras de Datos](datatypes/)
-* [Clases](classes/)
 
 ## Módulos
 * [Flask](flask/)
