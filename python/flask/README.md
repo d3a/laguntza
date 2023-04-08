@@ -21,4 +21,4 @@
 - [Crear Proyecto](crear-proyecto.md)
 
 ## Referencias
-- [Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/)
+- [Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/) :arrow_upper_right:
