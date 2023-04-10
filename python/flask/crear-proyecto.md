@@ -1,22 +1,17 @@
 # Crear Proyecto
 
-Crear Carpeta del proyecto
-```
-$ mkdir myproject
-```
+```bash
+# Crear Carpeta del proyecto
+$ mkdir myproject 
 
-Asignar entorno virtual a proyecto
-```
+#Asignar entorno virtual a proyecto
 $ cd myproject
 $ python3 -m venv venv
-```
 
-Activar entorno virtual del proyecto
-```
+# Activar entorno virtual del proyecto
 $ . venv/bin/activate
-```
-Instalar Flask
-```
+
+#Instalar Flask
 pip install Flask
 ```
 

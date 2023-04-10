@@ -17,8 +17,11 @@
   - PyPy 7.3.7+
 
 ## How-to's
-- [Comando 'flask'](comando-flask.md)
 - [Crear Proyecto](crear-proyecto.md)
+- [Comando 'flask'](comando-flask.md)
+
+## Ejemplos
+- [Aplicación Básica](code/index.py)
 
 ## Referencias
 - [Flask Documentation (2.2.x)](https://flask.palletsprojects.com/en/2.2.x/) :arrow_upper_right:
