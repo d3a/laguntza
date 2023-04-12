@@ -75,18 +75,15 @@ Contenido
 
 ##Ejemplos práticos
 Descomponer un nombre de fichero
-´´´bash
+```bash
     files=data.txt
     echo ${file%.*}
     # data
     echo ${file#*.}
     # txt
-´´´	
+```	
 
 Host Corto
-´´´bash
+```bash
     ${HOSTNAME%%.*}
-´´´
-
-
-
+```
