@@ -73,6 +73,20 @@ Contenido
 
 ```${variable,,}```	Todo a minúsculas 
 
+##Ejemplos práticos
+Descomponer un nombre de fichero
+´´´bash
+    files=data.txt
+    echo ${file%.*}
+    # data
+    echo ${file#*.}
+    # txt
+´´´	
+
+Host Corto
+´´´bash
+    ${HOSTNAME%%.*}
+´´´
 
 
 
