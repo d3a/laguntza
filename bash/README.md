@@ -9,8 +9,11 @@
 ## Linux
 - Recursos
 - Usuarios
-- Sistema de ficheros
-- Ficheros
+- [Sistema de ficheros](ficheros/filesystems.md)
+- [Ficheros](ficheros/)
+    - [Carpetas](ficheros/carpetas.md)
+    - Ficheros
+    - Utilidades
 - Procesos
 - Red
 

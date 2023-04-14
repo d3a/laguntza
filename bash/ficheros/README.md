@@ -1,6 +1,8 @@
 # Gestion de ficheros
 
-## Rutas y nombres
+**Rutas y nombres**
+
+```dirname``` y ```basename```
 ```bash
   file="/mnt/unidad/carpeta/fichero.txt"
   dirname ${file}
@@ -18,18 +20,9 @@
   # ext
 ```
 
-## Filesystems
-- pvdisplay
-- vgdisplay
-- lvdisplay
-- mount
-- df
+[Filesystems](filesystems.md)
 
-## Carpetas
-- mkdir
-- cd
-- rmdir
-- rm -r
+[Carpetas](carpetas.md)
 
 ## Ficheros
 - cp
