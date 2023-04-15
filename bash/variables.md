@@ -58,12 +58,36 @@ Contenido
 	
 ```${#parameter}```	Numero de caracteres o elementos del array
 
-```${parameter#word}``` ```${parameter##word}```	The word is expanded to produce a pattern just as in pathname expansion.  If the pattern matches the beginning of the value  of  parameter, then  the  result  of  the  expansion is the expanded value of parameter with the shortest matching pattern (the ''#'' case) or the longest matching pattern (the ''##'' case) deleted.  If parameter is @ or *, the pattern removal operation is applied to each positional  parameter in turn, and the expansion is the resultant list.  If parameter is an array variable subscripted with @ or *, the pattern removal operation is applied to each member of the array in turn, and the expansion is the resultant list.
+```${parameter#word}    ${parameter##word}``` Se expande 'word' como una patrón de expanción de rutas (*,?,...). Si hay coincidencia con el principio del parametro el resultado será el parametro con la parte coincidenctra borrada. Si se usa # se usará el patron mas pequeño, si se usa ## se usará el patrónm ás largo.
+```bash
+    var="uno-dos-tres"
+    echo ${var#*-}
+    # dos-tres; el patron mas corto que cumple es "uno-"
+    echo ${var##*-}
+    # tres; el patron mas corto que cumple es "uno-dos-"
+```
 
-```${parameter%word}```	The word is expanded to produce a pattern just as in pathname expansion.  If the pattern matches a trailing portion of the  expanded  value of  parameter,  then  the result of the expansion is the expanded value of parameter with the shortest matching pattern (the ''%'' case) or the longest matching pattern (the ''%%'' case) deleted.  If parameter is @ or *, the pattern removal operation is  applied  to  each  positional  parameter in turn, and the expansion is the resultant list.  If parameter is an array variable subscripted with @ or *, the pattern removal operation is applied to each member of the array in turn, and the expansion is the resultant list.
-```${parameter%%word}```
+```${parameter%word}   ${parameter%%word}``` Igual que antes pero por detrás
+```bash
+    var="uno-dos-tres"
+    echo ${var%-*}
+    # uno-dos; el patron mas corto que cumple es "-tres"
+    echo ${var%%-*}
+    # uno; el patron mas corto que cumple es "-dos-tres"
+```
 
-```${parameter/pattern/string}```	The pattern is expanded to produce a pattern just as in pathname expansion.  Parameter is expanded and the longest match of pattern against its  value  is  replaced with string.  If Ipattern begins with /, all matches of pattern are replaced with string.  Normally only the first match is replaced.  If pattern begins with #, it must match at the beginning of the expanded value of parameter.  If pattern begins with %, it must match at the end of the expanded value of parameter.  If string is null, matches of pattern are deleted and the / following pattern may be omitted.  If parameter is @ or *, the substitution operation is applied to each positional parameter in turn, and the  expansion  is the resultant list.  If parameter is an array variable subscripted with @ or *, the substitution operation is applied to each member of the array in turn, and the expansion is the resultant list.
+```${parameter/pattern/string}```	Sustitucion parecida a expresiones regulares. Si patron empeiza por # se aplica al principio. Si empeiza por % se aplica al final. Si empeiza por / se sustuyen todas la ocurrencias.
+```bash
+    var="uno-dos-tres"
+    echo ${var/#u/U}
+    # Uno-dos-tres
+    echo ${var/%tres/3}
+    # uno-dos-3
+    echo ${var/-/}
+    # unodos-tres
+    echo ${var//-/;}
+    # uno;dos;tres
+```
 
 ```${variable^}```	A mayúsculas el primer carácter
 
@@ -73,7 +97,7 @@ Contenido
 
 ```${variable,,}```	Todo a minúsculas 
 
-##Ejemplos práticos
+## Ejemplos práticos
 Descomponer un nombre de fichero
 ```bash
     files=data.txt
