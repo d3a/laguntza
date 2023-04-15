@@ -1,0 +1,26 @@
+.borde {
+    border: 1px solid black;
+}
+
+.borde2 {
+    border: 1px groove black;
+    border-radius: 5px;
+}
+
+.outline {
+    outline: 1px solid red;
+}
+
+.outline2 {
+    outline: 1px solid blue;
+    outline-offset: 5px;
+}
+
+.margin_10{
+    margin: 10px;
+}
+
+.padding_10{
+    padding: 10px;
+}
+
