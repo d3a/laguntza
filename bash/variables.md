@@ -58,7 +58,7 @@ Contenido
 	
 ```${#parameter}```	Numero de caracteres o elementos del array
 
-```${parameter#word}    ${parameter##word}``` Se expande 'word' como una patrón de expanción de rutas (*,?,...). Si hay coincidencia con el principio del parametro el resultado será el parametro con la parte coincidenctra borrada. Si se usa # se usará el patron mas pequeño, si se usa ## se usará el patrónm ás largo.
+```${parameter#word}``` ```${parameter##word}``` Se expande 'word' como una patrón de expanción de rutas (*,?,...). Si hay coincidencia con el principio del parametro el resultado será el parametro con la parte coincidenctra borrada. Si se usa # se usará el patron mas pequeño, si se usa ## se usará el patrónm ás largo.
 ```bash
     var="uno-dos-tres"
     echo ${var#*-}
@@ -67,7 +67,7 @@ Contenido
     # tres; el patron mas corto que cumple es "uno-dos-"
 ```
 
-```${parameter%word}   ${parameter%%word}``` Igual que antes pero por detrás
+```${parameter%word}``` ```${parameter%%word}``` Igual que antes pero por detrás
 ```bash
     var="uno-dos-tres"
     echo ${var%-*}
