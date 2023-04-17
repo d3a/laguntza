@@ -43,6 +43,18 @@ visibility: visible | hidden | collapse
 
 box-sizing: <u>content-box</u> | border-box 
 
+display
+- block
+- inline
+- flex
+- grid
+- flow-root
+- none
+- contents
+- table
+- table-row
+- list-item
+
 flex-direction: row | column
 
 min-width

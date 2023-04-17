@@ -25,20 +25,28 @@
     padding: 10px;
 }
 
-.filas{
-    flex-direction: row;
+
+.display_inline{
+    display: inline;
+}
+
+.display_block{
+    display: block;
+}
+
+.display_grid{
+    display: grid;
+}
+
+.display_flex{
+    display: flex;
+}
+
+.display_flexbox{
+    display: flexbox;
+}
+
+.bloque_display{
+    margin: 5px;
+    border: 2px solid blue;
 }    
-
-.size1{
-    max-width: 200px;
-    height: 50px;
-    overflow: auto;
-    flex-direction: row;
-}
-
-.size2{
-    max-width: 200px;
-    height: 100px;
-    overflow: auto;
-    flex-direction: row;
-}
