@@ -1,7 +1,13 @@
 # CSS
 
 ## Cajas
-![box-model](/laguntza/assets/images/css-box-model.png)
+![box-model](../../assets/images/css-box-model.png)
+
+padding \<top> \<right> \<bottom> \<left>
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
 
 border \<width> \<style> \<color>
 - border-\<side>-\<attr>
@@ -32,13 +38,25 @@ margin \<top> \<right> \<bottom> \<left>
 - margin-bottom
 - margin-left
 
-padding \<top> \<right> \<bottom> \<left>
-- padding-top
-- padding-right
-- padding-bottom
-- padding-left
 
+visibility: visible | hidden | collapse
+
+box-sizing: <u>content-box</u> | border-box 
+
+flex-direction: row | column
+
+min-width
 width
+max-width
 
+min-height
 height
-min
+max-height
+
+overflow | overflow-x | overflow-y
+- visible
+- hidden
+- clip
+- scroll
+- auto
+- overlay
