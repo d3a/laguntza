@@ -3,8 +3,17 @@
 ## [GitHub Pages](https://d3a.github.io/laguntza/)
 
 ## Indice
-### [bash](bash/)
-### [git](git/)
-### [python](python/)
-### [ssl](SSL/)
-### [WSL](WSL/)
+
+
+### [Plataformas](Plataformas/)
+#### [git](git/)
+#### [WSL](WSL/)
+#### [bash](bash/)
+#### [ssl](bash/ssl.md)
+
+### [Frontend](Frontend/)
+#### [HTML](HTML/)
+#### [CSS](CSS/)
+
+### [Backend](Backend/)
+#### [python](python/)

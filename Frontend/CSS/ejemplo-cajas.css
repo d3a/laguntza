@@ -42,10 +42,6 @@
     display: flex;
 }
 
-.display_flexbox{
-    display: flexbox;
-}
-
 .bloque_display{
     margin: 5px;
     border: 2px solid blue;
