@@ -16,7 +16,7 @@
   - range
 - Cadenas de carateres
   - str
-    - [Métodos](https://www.w3schools.com/python/python_ref_string.asp) :arrow_upper_right:
+    - [Métodos](strings-methods.md)
 
 
 ## Tipos de Datos complejos
