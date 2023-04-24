@@ -1,4 +1,4 @@
 # Frontend
 
-[HTML](HTML/)
-[CSS](CSS/)
+- [HTML](HTML/)
+- [CSS](CSS/)

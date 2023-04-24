@@ -7,14 +7,14 @@
 ## Indice
 
 - [Plataformas](Plataformas/)
-    - [git](git/)
-    - [WSL](WSL/)
-    - [bash](bash/)
-    - [ssl](bash/ssl.md)
+    - [Git](Plataformas/git/)
+    - [WSL](Plataformas/WSL/)
+    - [bash](Plataformas/bash/)
+    - [SSL](Plataformas/bash/ssl.md)
 
 - [Frontend](Frontend/)
-    - [HTML](HTML/)
-    - [CSS](CSS/)
+    - [HTML](Frontend/HTML/)
+    - [CSS](Frontend/CSS/)
 
 - [Backend](Backend/)
-    - [python](python/)
+    - [python](Backend/python/)

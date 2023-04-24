@@ -2,6 +2,12 @@
 
 ## Contenidos:
 * [Estructuras de Datos](datatypes/)
+    - [clases](datatypes/clases.md)
+    - [Strings](datatypes/strings-methods.md)
+    - [Listas](datatypes/listas.md)
+    - [Tuplas](datatypes/tuplas.md)
+    - [Diccionarios](datatypes/diccionarios.md)
+    - [Conjuntos](datatypes/conjuntos.md)
 
 ## Módulos
 * [Flask](flask/)
