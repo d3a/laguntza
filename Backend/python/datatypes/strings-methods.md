@@ -1,63 +1,190 @@
 # Métodos de cadenas de caracteres
 
-## Minúsculas/Mayúsculas
+## Información sobre la cadena
 ```python
->>> cadena_min="una cadena de texto"
->>> cadena_may="CADENA EN MAYÚSCULAS"
->>> cadena_mix="Cadena cOn ToDo mezclado."
+cadena="una cadena de texto"
+```
 
->>> print(cadena_min.capitalize())
-Una cadena de texto
->>> print(cadena_may.capitalize())
-Cadena en mayúsculas
->>> print(cadena_mix.capitalize())
-Cadena con todo mezclado.
+Contar ocurrencias de una subcadena dentro de la cadena
+```python
+cadena.count('de')
+# 1
+```
 
->>> print(cadena_min.upper())
-UNA CADENA DE TEXTO
->>> print(cadena_may.lower())
-cadena en mayúsculas
->>> print(cadena_may.casefold())
-cadena en mayúsculas
+Buscar subcadena
+```python
+#La primera ocurrencia
+cadena.index('de')
+# 6
+cadena.find('de')
+# 6
+#La última ocurrencia
+cadena.rindex('de')
+# 11
+cadena.rfind('de')
+# 11
+```
 
->>> print(cadena_min.title())
-Una Cadena De Texto
->>> print(cadena_may.title())
-Cadena En Mayúsculas
->>> print(cadena_mix.title())
-Cadena Con Todo Mezclado.
+Verificar si la cadena empieza o termina en una subcadena determinada
+```python
+cadena.startswith('Una')
+# False
+cadena.startswith('una')
+# True
+cadena.startswith('una',0,10)   # Se puede especificar un rango 
+# True
 
->>> print(cadena_mix.swapcase())
-cADENA CoN tOdO MEZCLADO.
+cadena.endswith('.')
+# False
+cadena.endswith('na')
+# True
+```
 
+Verificar si tiene formatos determinados
+```python
+"aplha_²_123".isprintable()
+# True
+"aplha_?_123".isascii()
+# True
+"aplha__123".isidentifier()
+# True
+"alpha123".isalnum()
+# True
+"alpha".isalpha()
+# True
+"  \t".isspace()
+# True
 
+"1234".isdecimal()
+# True
+"1234²".isdigit()
+# True
+"1234¾²".isnumeric()
+# True
+ 
+"Titulo Valido".istitle()
+# True
+"todo  minus".islower()
+# True
+"TODO MAYUS".isupper()
+# True
+```
+
+## Minúsculas/Mayúsculas
+
+```python
+cadena_min="una cadena de texto"
+cadena_may="CADENA EN MAYÚSCULAS"
+cadena_mix="Cadena cOn ToDo mezclado."
+```
+
+Primera letra en mayúsculas
+```python
+cadena_min.capitalize()
+# Una cadena de texto
+cadena_may.capitalize()
+# Cadena en mayúsculas
+cadena_mix.capitalize()
+# Cadena con todo mezclado.
+```
+
+Primera letra de cada palabra en mayúsculas
+```python
+cadena_min.title()
+# Una Cadena De Texto
+cadena_may.title()
+# Cadena En Mayúsculas
+cadena_mix.title()
+# Cadena Con Todo Mezclado.
+```
+
+Todo en mayúsculas
+```python
+cadena_min.upper()
+# UNA CADENA DE TEXTO
+```
+
+Todo en minúsculas
+```python
+cadena_may.lower()
+# cadena en mayúsculas
+cadena_mix.casefold()
+# cadena con todo mezclado.
+```
+
+Cambiar mayúsculas por minúsculas y minúsculas por mayúsculas
+```python
+cadena_mix.swapcase()
+#cADENA CoN tOdO MEZCLADO.
+```
+
+## Transformar una cadena
+Dividir cadena
+```python
+cadena="1-2-3-4"
+cadena.split("-",2)
+# ['1', '2', '3-4']
+cadena.rsplit("-",2)
+# ['1-2', '3', '4']
+
+cadena= "Linea1\rLinea dos\n3ra linea"
+cadena.splitlines()
+# ['Linea1', 'Linea dos', '3ra linea']
+
+cadena="una cadena xx con una linea xx dentro"
+cadena.partition('xx')
+# ('una cadena ', 'xx', ' con una linea xx dentro')
+cadena.rpartition('xx')
+# ('una cadena xx con una linea ', 'xx', ' dentro')
+```
+
+Justificar
+```python
+cadena="12345"
+
+cadena.ljust(10)
+# '12345     '
+cadena.rjust(10,'_')
+# '_____12345'
+cadena.center(20,'-')
+# '-------12345--------'
+
+cadena.zfill(10)
+# '0000012345'
+```
+
+Eliminar caracteres al principio y/o al final
+```python
+cadena="   Cadena   "
+cadena.rstrip()
+# '   Cadena'
+cadena.strip()
+# 'Cadena'
+cadena.lstrip()
+# 'Cadena   '
+```
+
+Reemplazar
+```python
+cadena="un texto que vamos a cambiar"
+
+cadena.replace('vamos a', 'tenemos que')
+# 'un texto que tenemos que cambiar'
 ```
 
 ## Otros
 
 ```python
->>> cadena="una cadena de texto"
->>> cadmay="OTRA CADENA en MAYÚSCULAS"
->>> cadtab="Cadena\tcon\ttabuladores."
->>> print(cadmay.center(80))
-                           OTRA CADENA en MAYÚSCULAS                            
->>> print(cadmay.count('a'))
-0
->>> print(cadmay.count('A'))
-5
->>> print(cadmay.count('CA'))
-1
->>> print(cadmay.encode())
-b'OTRA CADENA en MAY\xc3\x9aSCULAS'
->>> print(cadena.endswith('.'))
-False
->>> print(cadena.endswith('to'))
-True
->>> print(cadena.endswith('ca',4,5))
-False
->>> print(cadena.endswith('ca',4,6))
-True
->>> print(cadtab.expandtabs(1))
-Cadena con tabuladores.
+"áéñçÍÓ".encode()
+# b'\xc3\xa1\xc3\xa9\xc3\xb1\xc3\xa7\xc3\x8d\xc3\x93'
 
+"cadena\tcon\ttabuladores".expandtabs()
+# 'cadena  con     tabuladores'
+
+"cadena con {var1} y una {var2}".format(var1 = "variable", var2 = "segunda variable")
+# 'cadena con variable y una segunda variable'
+
+tabla_trans = str.maketrans("12345", "67890", "ABCD")
+"1A2B3C4D5: 67890".translate(tabla_trans)
+# '67890: 67890'
 ```
