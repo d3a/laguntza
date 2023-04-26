@@ -5,13 +5,13 @@
 cadena="una cadena de texto"
 ```
 
-Contar ocurrencias de una subcadena dentro de la cadena
+**Contar ocurrencias de una subcadena dentro de la cadena**
 ```python
 cadena.count('de')
 # 1
 ```
 
-Buscar subcadena
+**Buscar subcadena**
 ```python
 #La primera ocurrencia
 cadena.index('de')
@@ -25,7 +25,7 @@ cadena.rfind('de')
 # 11
 ```
 
-Verificar si la cadena empieza o termina en una subcadena determinada
+**Verificar si la cadena empieza o termina en una subcadena determinada**
 ```python
 cadena.startswith('Una')
 # False
@@ -40,7 +40,7 @@ cadena.endswith('na')
 # True
 ```
 
-Verificar si tiene formatos determinados
+**Verificar si tiene formatos determinados**
 ```python
 "aplha_²_123".isprintable()
 # True
@@ -78,7 +78,7 @@ cadena_may="CADENA EN MAYÚSCULAS"
 cadena_mix="Cadena cOn ToDo mezclado."
 ```
 
-Primera letra en mayúsculas
+**Primera letra en mayúsculas**
 ```python
 cadena_min.capitalize()
 # Una cadena de texto
@@ -88,7 +88,7 @@ cadena_mix.capitalize()
 # Cadena con todo mezclado.
 ```
 
-Primera letra de cada palabra en mayúsculas
+**Primera letra de cada palabra en mayúsculas**
 ```python
 cadena_min.title()
 # Una Cadena De Texto
@@ -98,13 +98,13 @@ cadena_mix.title()
 # Cadena Con Todo Mezclado.
 ```
 
-Todo en mayúsculas
+**Todo en mayúsculas**
 ```python
 cadena_min.upper()
 # UNA CADENA DE TEXTO
 ```
 
-Todo en minúsculas
+**Todo en minúsculas**
 ```python
 cadena_may.lower()
 # cadena en mayúsculas
@@ -112,14 +112,22 @@ cadena_mix.casefold()
 # cadena con todo mezclado.
 ```
 
-Cambiar mayúsculas por minúsculas y minúsculas por mayúsculas
+**Cambiar mayúsculas por minúsculas y minúsculas por mayúsculas**
 ```python
 cadena_mix.swapcase()
 #cADENA CoN tOdO MEZCLADO.
 ```
 
 ## Transformar una cadena
-Dividir cadena
+**Crear cadena desde iterable**
+```python
+lista=('1','2','3','4')
+separador="-"
+separador.join(lista)
+# '1-2-3-4'
+```
+
+**Dividir cadena**
 ```python
 cadena="1-2-3-4"
 cadena.split("-",2)
@@ -138,7 +146,7 @@ cadena.rpartition('xx')
 # ('una cadena xx con una linea ', 'xx', ' dentro')
 ```
 
-Justificar
+**Justificar**
 ```python
 cadena="12345"
 
@@ -153,7 +161,7 @@ cadena.zfill(10)
 # '0000012345'
 ```
 
-Eliminar caracteres al principio y/o al final
+**Eliminar caracteres al principio y/o al final**
 ```python
 cadena="   Cadena   "
 cadena.rstrip()
@@ -164,7 +172,7 @@ cadena.lstrip()
 # 'Cadena   '
 ```
 
-Reemplazar
+**Reemplazar**
 ```python
 cadena="un texto que vamos a cambiar"
 
