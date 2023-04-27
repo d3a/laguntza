@@ -1,9 +1,10 @@
 # python
 
 ## Contenidos:
-* [Estructuras de Datos](datatypes/)
-    - [clases](datatypes/clases.md)
-    - [Strings](datatypes/strings-methods.md)
+* [Tipos de Datos](datatypes/)
+    - [Numéricos](datatypes/numericos.md)
+    - [Strings](datatypes/strings.md)
+    - [Clases](datatypes/clases.md)
     - [Listas](datatypes/listas.md)
     - [Tuplas](datatypes/tuplas.md)
     - [Diccionarios](datatypes/diccionarios.md)
