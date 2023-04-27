@@ -1,4 +1,28 @@
-# Métodos de cadenas de caracteres
+# Cadenas de caracteres
+
+## Constructor y conversion de tipos
+
+```python
+cadena=str()
+# ''
+cadena=str("una cadena de texto")
+# 'una cadena de texto'
+cadena=str(5.9)
+# '5.9'
+cadena=str(5E3)
+# '5000.0'
+cadena=str(0xAA)
+# '170'
+```
+
+## Caracteres
+
+```python
+ord('A')
+# 65
+chr(65)
+# 'A'
+```
 
 ## Información sobre la cadena
 ```python

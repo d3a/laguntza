@@ -9,14 +9,8 @@
   - byte
   - bytearray
   - memoryview
-- Numéricos
-  - int
-  - float
-  - complex
-  - range
-- Cadenas de carateres
-  - str
-    - [Métodos](strings-methods.md)
+- [Numéricos](numericos.md)
+- [Cadenas de carateres](strings.md)
 
 
 ## Tipos de Datos complejos
