@@ -1,49 +1,18 @@
-all()	Returns True if all items in an iterable object are true
-any()	Returns True if any item in an iterable object is true
-ascii()	Returns a readable version of an object. Replaces none-ascii characters with escape character
-bool()	Returns the boolean value of the specified object
-bytearray()	Returns an array of bytes
-bytes()	Returns a bytes object
-callable()	Returns True if the specified object is callable, otherwise False
-classmethod()	Converts a method into a class method
 compile()	Returns the specified source as an object, ready to be executed
-delattr()	Deletes the specified attribute (property or method) from the specified object
-dir()	Returns a list of the specified object's properties and methods
 divmod()	Returns the quotient and the remainder when argument1 is divided by argument2
 enumerate()	Takes a collection (e.g. a tuple) and returns it as an enumerate object
 eval()	Evaluates and executes an expression
 exec()	Executes the specified code (or object)
-filter()	Use a filter function to exclude items in an iterable object
 format()	Formats a specified value
 frozenset()	Returns a frozenset object
-getattr()	Returns the value of the specified attribute (property or method)
 globals()	Returns the current global symbol table as a dictionary
-hasattr()	Returns True if the specified object has the specified attribute (property/method)
 hash()	Returns the hash value of a specified object
 help()	Executes the built-in help system
 id()	Returns the id of an object
 input()	Allowing user input
-isinstance()	Returns True if a specified object is an instance of a specified object
-issubclass()	Returns True if a specified class is a subclass of a specified object
-iter()	Returns an iterator object
 len()	Returns the length of an object
 locals()	Returns an updated dictionary of the current local symbol table
-map()	Returns the specified iterator with the specified function applied to each item
-max()	Returns the largest item in an iterable
-memoryview()	Returns a memory view object
-min()	Returns the smallest item in an iterable
-next()	Returns the next item in an iterable
-object()	Returns a new object
 open()	Opens a file and returns a file object
 print()	Prints to the standard output device
 property()	Gets, sets, deletes a property
-repr()	Returns a readable version of an object
-reversed()	Returns a reversed iterator
-setattr()	Sets an attribute (property/method) of an object
-slice()	Returns a slice object
 sorted()	Returns a sorted list
-staticmethod()	Converts a method into a static method
-sum()	Sums the items of an iterator
-super()	Returns an object that represents the parent class
-vars()	Returns the __dict__ property of an object
-zip()	Returns an iterator, from two or more iterators

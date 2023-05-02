@@ -4,11 +4,13 @@
 * [Tipos de Datos](datatypes/)
     - [Numéricos](datatypes/numericos.md)
     - [Strings](datatypes/strings.md)
-    - [Clases](datatypes/clases.md)
     - [Listas](datatypes/listas.md)
     - [Tuplas](datatypes/tuplas.md)
     - [Diccionarios](datatypes/diccionarios.md)
     - [Conjuntos](datatypes/conjuntos.md)
+* [Clases](clases/)
+    - [Estructura Básica](clases/basico.md)
+* [Iterables](iterables/)
 
 ## Módulos
 * [Flask](flask/)
