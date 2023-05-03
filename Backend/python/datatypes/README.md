@@ -1,14 +1,7 @@
 # Estructuras de Datos
 
-## Clases
-- [Estructura de clases](clases.md)
-
 ## Tipos de Datos simples
-- Secuencias binarias
-  - boolean
-  - byte
-  - bytearray
-  - memoryview
+- [Secuencias binarias](binarios.md)
 - [Numéricos](numericos.md)
 - [Cadenas de carateres](strings.md)
 

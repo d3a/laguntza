@@ -2,6 +2,7 @@
 
 ## Contenidos:
 * [Tipos de Datos](datatypes/)
+    - [Binarios](datatypes/binarios.md)
     - [Numéricos](datatypes/numericos.md)
     - [Strings](datatypes/strings.md)
     - [Listas](datatypes/listas.md)
