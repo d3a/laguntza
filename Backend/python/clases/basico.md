@@ -61,6 +61,12 @@ class NombreClase(Herencia1 [,...])
         # print(obj + 'algun texto')
         return algo + other
 
+    def __len__(self):
+        longitud = int()
+        # len( obj )
+        return longitud
+
+
     # Métodos Estáticos
     @staticmethod
     def smetodo([argumentos]):
