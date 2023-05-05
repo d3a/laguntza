@@ -11,7 +11,7 @@
     - [Conjuntos](datatypes/conjuntos.md)
 * [Clases](clases/)
     - [Estructura Básica](clases/basico.md)
-* [Iterables](iterables/)
+* [Iterables](datatypes/iterables.md)
 
 ## Módulos
 * [Flask](flask/)
