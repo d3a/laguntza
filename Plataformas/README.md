@@ -1,6 +1,5 @@
 # Plataformas
 
 - [Git](git/)
-- [WSL](WSL/)
-- [bash]bash/)
-- [SSL](ssl.md)
+- [bash](bash/)
+- [SSL](bash/ssl.md)
