@@ -25,6 +25,7 @@ ansible <target> [-i <invent-file>] -m <modulo>
 ### ansible-doc
 
 ### ansible-vault
+
 ```bash
 ansible-vault encrypt_string 'foobar' --name 'the_secret' --ask-vault-pass
 
