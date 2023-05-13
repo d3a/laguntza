@@ -1,6 +1,16 @@
 # LXC/LXD
 
-https://linuxcontainers.org/
+## Home
+[Linux Containers](https://linuxcontainers.org/)
+
+## Instalación
+
+```bash
+snap install lxd
+lxd init
+lxd --version
+```
+
 
 
 ```bash
