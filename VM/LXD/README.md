@@ -1,17 +1,23 @@
-# LXC/LXD
+# LXD/LXC
 
 ## Home
-[Linux Containers](https://linuxcontainers.org/)
+- [Linux Containers](https://linuxcontainers.org/)
+- [LXD Docs](https://linuxcontainers.org/lxd/docs/latest/)
+
+## Comandos
+**lxd**: demonio
+**lxc**: cliente
 
 ## Instalación
-
 ```bash
 snap install lxd
 lxd init
 lxd --version
 ```
 
+## Consultas
 
+### Plantillas
 
 ```bash
 $ lxc image list
@@ -20,7 +26,10 @@ $ lxc image list
 +---------------+--------------+--------+--------------------------------------+--------------+-----------+----------+-----------------------------+
 | Ubuntu2204SSH | 5721dd0e330c | no     | Ubuntu 22.04 LTS server (20221101.1) | x86_64       | CONTAINER | 602.55MB | Nov 8, 2022 at 8:05am (UTC) |
 +---------------+--------------+--------+--------------------------------------+--------------+-----------+----------+-----------------------------+
+```
 
+### Contenedores
+```bash
 $ lxc list
 +------------+---------+------+------+-----------+-----------+
 |    NAME    |  STATE  | IPV4 | IPV6 |   TYPE    | SNAPSHOTS |
@@ -35,39 +44,57 @@ $ lxc list
 +------------+---------+------+------+-----------+-----------+
 ```
 
-## Gestionar VM
+## Creación de Contenedores
+
+Crear la máquina plantilla
+```bash
+lxc launch <imagen_os> <nombre_imagen>
+# nombre_imagen     imagen_os
+# Ubuntu2204        images:ubuntu/22.04/amd64
+# RockyLinux8       images:rockylinux/8/amd64
+# RockyLinux9       images:rockylinux/9/amd64
+```
+Crear la plantilla
+```bash
+lxc stop <nombre_imagen>
+lxc publish <nombre_imagen> --alias=<alias_plantilla> description="<descripcion de la plantilla>"
+```
+Crear contenedores con la plantilla
+```bash
+lxc launch <alias_plantilla> <nombre_contenedor>
+```
+
+Ejemplo:
+```bash
+lxc launch  ubuntu:22-04 Ubuntu2204
+lxc stop Ubuntu2204
+lxc publish Ubuntu2204 --alias=Ubuntu2204Base description="Plantilla base para los contenedores con Ubuntu 22.04 y Ansible"
+lxc launch Ubuntu2204Base u1
+lxc launch Ubuntu2204Base u2
+```
+
+
+## Gestionar Contenedores
+Borrado
+```bash
+lxc delete u1
+```
+Creación
+```bash
+lxc launch Ubuntu2204Base u1
+```
+Información
 ```bash
 lxc info u1
+```
+Gestión
+```bash
 lxc start u1
 lxc restart u1
 lxc stop u1
-
-lxc delete u1
 ```
-
-
-## Crear Máquians RockyLinux
-Crear la máquina plantilla
-```bash
-lxc launch images:rockylinux/9/amd64 RockyLinux9
-```
-
-Configurar SSH
+Consola
 ```bash
 lxc exec RockyLinux9 -- /bin/bash
 ```
-https://linuxstoney.com/enable-ssh-service-on-rocky-linux-8-centos-8/
-https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-rocky-linux-8-quickstart
 
-Crear máquinas
-```bash
-lxc stop RockyLinux9
-lxc publish RockyLinux9 --alias=RockyLinux9SSH description="RockyLinux con ssh key"
-lxc launch RockyLinux9SSH r1
-lxc launch RockyLinux9SSH r2
-```
-
-Ver plantillas
-```bash
-lxc list images
-```
