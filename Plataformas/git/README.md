@@ -43,6 +43,7 @@ carpeta_proyecto="${carpeta_base}/${carpeta_repo}"
 cd ${carpeta_proyecto}
 git init
 touch .gitignore
+git add *
 git commit -S -m "Version inicial"
 git branch -M main
 git remote add origin https://github.com/d3a/laguntza-ansible.git
