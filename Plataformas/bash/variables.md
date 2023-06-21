@@ -115,12 +115,14 @@ Host Corto
 Variable en varias lineas
 ```bash
 n=0
-printf %s "$foo" | {
-  while IFS= read -r line; do
-    n=$(($n + 1))
-  done
-  echo $n
+printf %s "${variable}" | {
+    while IFS= read -r line; do
+        n=$((${n} + 1))
+    done
+    echo ${n}
 }
+
+echo "${variable}" | egrep patron
 ```
 
 Buscar posicion de una subcadena dentro de una cadena
