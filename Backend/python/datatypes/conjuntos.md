@@ -34,10 +34,11 @@ set = {1, 2, 3}
 
 | Método                | Descripción                                                            | Ejemplo
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
+| clear()               | | |
 | add(elem)             | | |
 | update(lista)         | | |
 | remove(elem)          | Elimina el elemento _elem_. Si el elemento no existe lanza excepcion _KeyError_ | |
-| discar(elem)          | Elimina el elemento _elem_. Si el elemento no existe no se lanza excepcion      | |
+| discard(elem)         | Elimina el elemento _elem_. Si el elemento no existe no se lanza excepcion      | |
 | union(cto2)           | Igual que `cto1 \| cto2` | |
 | intersection(cto2)    | Igual que `cto1 & cto2` | |
 | difference(cto2)          | Igual que `cto1 - cto2` | |
