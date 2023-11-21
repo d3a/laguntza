@@ -93,16 +93,16 @@ lista = [1, 2, 3]
 
 | Método                | Descripción                                                            | Ejemplo
 | :-------------------- | :--------------------------------------------------------------------- | :------------------------- |
-| clear()               | | |
+| clear()               | Elimina todos los elementos de la lista. | |
 | copy()                | | |
-| index(elem[, i[, j]]) | | |
-| count()               | | |
-| append(elem)          | | |
-| pop([i])              | | |
-| insert(i, elem)       | | |
-| remove(elem)          | | |
-| extend(lista)         | | |
-| reverse()             | | |
-| sort()                | | |
+| index(elem[, i[, j]]) | Posición de una elemento en la lista. | |
+| count([elem])         | Cuenta los elementos en una lista. | |
+| append(elem)          | Inserta un elemento al final de la lista | |
+| pop([i])              | Devuelve el i-ésimo elementosy lo elimina de la lista. | |
+| insert(i, elem)       | Inserta un elemento en la posición i | |
+| remove(elem)          | Elimina la primera ocurrencia del elemento indicado. | |
+| extend(lista)         | Concatela la lista dada al final de las lista. | |
+| reverse()             | Inverte el orden de los elemetnos de la lista. | |
+| sort()                | Ordena la lista. | |
 
 
