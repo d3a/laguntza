@@ -39,3 +39,25 @@ names = ['Ana', 'Juan', 'Maria', 'Jose', 'Rafa']
 count_list = list(map(len, names))
 print(count_list)
 ```
+
+## filter(func_filtrado, lista)
+Devuelve la lista de los elelmentos que cumplen con la funcion dada
+```python
+```
+
+## reduce(func_reducir, lista)
+Va aplicando la funcion a los elementos de la lista. Empenzando por los dos primeros y luego tommando el resultado y el siguiente elementos.
+```python
+def func_reducir(prev, elem[, init])
+  return x
+
+from functools import reduce
+
+def mayor_reduce(a, b):
+    return a if a > b else b
+
+numbers = [1, 12, 3, 34, 45, 68, 25, 14, 26, 78, 96]
+
+max_number = reduce(mayor_reduce, numbers)
+print(max_number)
+```
