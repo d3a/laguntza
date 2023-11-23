@@ -1,3 +1,5 @@
+# Build-ins
+```
 compile()    Returns the specified source as an object, ready to be executed
 divmod()     Returns the quotient and the remainder when argument1 is divided by argument2
 enumerate()  Takes a collection (e.g. a tuple) and returns it as an enumerate object
@@ -16,3 +18,24 @@ open()       Opens a file and returns a file object
 print()      Prints to the standard output device
 property()   Gets, sets, deletes a property
 sorted()     Returns a sorted list
+```
+
+## zip(lista1, lista2, ...)
+Mezcla las listas dadas
+```python
+l1=[1,2,3,4]
+l2=['a','b','c','d']
+l3=['AA','BB','CC']
+
+zip(l1,l2,l3)
+# ((1,'a','AA')...
+```
+
+## map(func, lista)
+Aplica la funcion indicada a todos los elementos de la lista
+```python
+names = ['Ana', 'Juan', 'Maria', 'Jose', 'Rafa']
+
+count_list = list(map(len, names))
+print(count_list)
+```
