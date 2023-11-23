@@ -1,0 +1,18 @@
+compile()    Returns the specified source as an object, ready to be executed
+divmod()     Returns the quotient and the remainder when argument1 is divided by argument2
+enumerate()  Takes a collection (e.g. a tuple) and returns it as an enumerate object
+eval()       Evaluates and executes an expression
+exec()       Executes the specified code (or object)
+format()     Formats a specified value
+frozenset()  Returns a frozenset object
+globals()    Returns the current global symbol table as a dictionary
+hash()       Returns the hash value of a specified object
+help()       Executes the built-in help system
+id()         Returns the id of an object
+input()      Allowing user input
+len()        Returns the length of an object
+locals()     Returns an updated dictionary of the current local symbol table
+open()       Opens a file and returns a file object
+print()      Prints to the standard output device
+property()   Gets, sets, deletes a property
+sorted()     Returns a sorted list
