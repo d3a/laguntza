@@ -39,3 +39,36 @@ def generador(n):
 a = generador()
 next(a)
 ```
+
+
+## Decoradores
+```python
+def funcion_decoradora(funcion_entrada):
+  def nueva_funcion(a,b):
+    # Se hacen cosas antes
+    res = funcion_entrada(,a,b)
+    # Se hacen otras cosas después
+    return res
+  return nueva_funcion
+
+@funcion_decoradora
+def funcion_decorada(a,b)
+  pass
+```
+
+### Decoradores con paramtros
+```python
+def encapsulador(paramtro_decorador)
+  def funcion_decoradora(funcion_entrada):
+    def nueva_funcion(a,b):
+      # Se hacen cosas antes
+      res = funcion_entrada(,a,b)
+      # Se hacen otras cosas después
+      return res
+    return nueva_funcion
+  return funcion_decoradora
+
+@funcion_decoradora( parametro )
+def funcion_decorada(a,b)
+  pass
+```
