@@ -1,3 +1,4 @@
+```python
 ascii()	Returns a readable version of an object. Replaces none-ascii characters with escape character
 callable()	Returns True if the specified object is callable, otherwise False
 classmethod()	Converts a method into a class method
@@ -21,3 +22,4 @@ slice()	Returns a slice object
 staticmethod()	Converts a method into a static method
 super()	Returns an object that represents the parent class
 vars()	Returns the __dict__ property of an object
+```
