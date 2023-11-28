@@ -72,3 +72,15 @@ def encapsulador(paramtro_decorador)
 def funcion_decorada(a,b)
   pass
 ```
+
+
+## Funciones lambda
+```python
+lambda [params]: operacion
+
+lambda x,y: x+y
+
+a = lambda x,y: x+y
+print(a(1,2))
+```
+
