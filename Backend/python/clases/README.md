@@ -1,3 +1,3 @@
 # Clases
 
-- [Estructura Básica](basico.md))
+- [Estructura Básica](basico.md)
