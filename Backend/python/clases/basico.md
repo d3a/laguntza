@@ -66,6 +66,12 @@ class NombreClase(Herencia1 [,...])
         # len( obj )
         return longitud
 
+    # Métodos Privado
+    
+    def __metodo_privado(self, [argumentos]):
+        #se puede invocar con obj._NombreClase__metodo_privado
+        pass
+
     # Métodos de Clase
     @classmethod
     def cmetodo(cls, [argumentos]):
@@ -88,4 +94,5 @@ NombreClase.smetodo(...)
 obj = NombreClase(...)
 a = obj.prop3
 obj.metodo1(...)
+obj._NombreClase__metodo_privado()
 ```
