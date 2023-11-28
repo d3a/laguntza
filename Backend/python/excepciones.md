@@ -3,12 +3,17 @@
 ```python
 try:
   # codigo
-except <tipo_excepcion_1>:
-  # tratatminto error 1
-except <tipo_excepcion_2>:
-  # tratatminto error 2
+except ZeroDivisionError:
+  # codiio si hay division por cero
+except TypeError:
+  # codiio si hay error de tipos
+except zzzz:
+  # XXXXX
 except:
   # cualquier otra excepcion
 else:
   # codigo si no hay errores
+finally:
+  # codigo que se ejecutará siempre
+
 ```
