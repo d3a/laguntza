@@ -66,6 +66,10 @@ class NombreClase(Herencia1 [,...])
         # len( obj )
         return longitud
 
+    # Métodos de Clase
+    @classmethod
+    def cmetodo(cls, [argumentos]):
+        pass
 
     # Métodos Estáticos
     @staticmethod
