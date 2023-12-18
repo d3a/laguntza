@@ -1,5 +1,7 @@
+package nombre.paquete
+
 class ClaseBase() {
-  int main(){
+  static main(args) {
     println("Proceso Principal")
   }
 }
