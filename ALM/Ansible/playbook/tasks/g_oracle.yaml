@@ -1,0 +1,12 @@
+- name: Modulo oracle_db
+  hosts: <maquinas_oracle>
+  tasks:
+    - name: Ejecutar script SQL
+      become: yes
+      become_user: oracle_user  # Reemplaza con el nombre de usuario de Oracle
+      shell: |
+        sqlplus -S /nolog <<EOF
+        connect username/password@tns_entry
+        @ruta_al_script.sql
+        exit
+        EOF

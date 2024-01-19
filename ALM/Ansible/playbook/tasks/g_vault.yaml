@@ -1,0 +1,4 @@
+---
+- name: Plantilla para playbooks que usen ansible-vault
+  hosts: destino
+
