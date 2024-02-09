@@ -11,7 +11,7 @@
 ## Install
 ```bash
 pip install PyQt6
-`````
+```
 
 ## Code
 - [Estructura Básica](basico.md)
