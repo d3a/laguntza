@@ -1,4 +1,3 @@
-```python
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
 
@@ -13,4 +12,3 @@ window = MainWindow("App")
 window.show()
 
 app.exec()
-```
