@@ -2,7 +2,7 @@
 
 Python 3.10 o inferior
 
-Instalar:
+## Instalar
 ```bash
 virtualenv venv -p <python10_home>\python.exe
 .\venv\Scripts\activate
@@ -12,7 +12,11 @@ pip install pyqt6-tools
 pyqt6-tools designer
 ```
 
-Ejecutar:
+## Ejecutar
 ```bash
 pyqt6-tools designer
 ```
+
+
+## Referencias
+https://www.pythonguis.com/tutorials/pyqt6-first-steps-qt-designer/
