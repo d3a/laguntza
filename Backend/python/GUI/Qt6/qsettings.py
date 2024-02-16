@@ -1,3 +1,5 @@
+# https://www.riverbankcomputing.com/static/Docs/PyQt6/api/qtcore/qsettings.html
+
 from PyQt6.QtCore import QSettings, QPoint
 
 settings = QSettings('foo', 'foo')
