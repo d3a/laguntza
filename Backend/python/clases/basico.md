@@ -24,9 +24,19 @@ class NombreClase(Herencia1 [,...])
         #self.__dict__
         pass
 
+    def __len__(self):
+        longitud = int()
+        # len( obj )
+        return longitud
+
     def __new__(self [,parametros...]):
         # No me ha quedado muy claro (?¿)
         pass
+
+    def __add__(self, other):
+        # obj = NombreClase()
+        # print(obj + 'algun texto')
+        return algo + other
 
     def __del__(self):
         # Finalizador
@@ -53,18 +63,16 @@ class NombreClase(Herencia1 [,...])
 
     def __repr__(self):
         # obj = NombreClase()
-        # print(obj)
+        # repr(obj): print(repr(obj)) o eval(repr(obj))
+        # Debe ser una estructura interpretable por "eval()", por ejemplo la llamada al constructor
+        salida = f'NombreClase("{self.prop1}", "{self.prop2}", ...)'
         return some_string
           
-    def __add__(self, other):
+    def __str__(self):
         # obj = NombreClase()
-        # print(obj + 'algun texto')
-        return algo + other
-
-    def __len__(self):
-        longitud = int()
-        # len( obj )
-        return longitud
+        # str(obj): print(obj) o print(str(obj))
+        # Si no se define este metodo, python devuelve la salida de "repr".
+        return some_string
 
     # Métodos Privado
     
