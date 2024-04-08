@@ -6,9 +6,9 @@
 try:
   # codigo
 except ZeroDivisionError:
-  # codiio si hay division por cero
+  # codigo si hay division por cero
 except TypeError:
-  # codiio si hay error de tipos
+  # codigo si hay error de tipos
 except Excepcion as alias:
   # inst.args
 
