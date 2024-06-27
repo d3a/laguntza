@@ -1,26 +1,59 @@
 ## Encabezados
 
+```md
 # Encabezado 1
-Encabezado 1 Subrallado
+Encabezado 1
 ===
+```
+# Encabezado 1
+<hr width="75%">
+
+```md
 ## Encabezado 2
 Encabezado 2 Subrallado
 ---
-### Encabezado 3
-#### Encabezado 4
-##### Encabezado 5
-###### Encabezado 6
-Texto normal
+```
+## Encabezado 2
 <hr width="75%">
 
-## Lineas
-\---
+```md
+### Encabezado 3
+```
+### Encabezado 3
+<hr width="75%">
+
+```md
+#### Encabezado 4
+```
+#### Encabezado 4
+<hr width="75%">
+
+```md
+##### Encabezado 5
+```
+##### Encabezado 5
+<hr width="75%">
+
+```md
+###### Encabezado 6
+```
+###### Encabezado 6
+<hr width="75%">
+
+
+## Linea
+
+```md
 ---
-\***
 ***
-\___
 ___
-<hr width=95%>
+```
+___
+
+```html
+<hr width="75%">
+```
+<hr width="75%">
 
 _Cursiva 1_
 *Cursiva 2*
