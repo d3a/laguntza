@@ -55,28 +55,55 @@ ___
 ```
 <hr width="75%">
 
+## Texto
+```md
 _Cursiva 1_
 *Cursiva 2*
+```
+*Cursiva 2*
 
+```md
 __Negrita 1__
 **Negrita 2**
+```
+**Negrita 2**
 
+```md
 ___Cursiva y Negrita 1___
+***Cursiva y Negrita 2***
+```
 ***Cursiva y Negrita 2***
 <hr width=95%>
 
+```md
+> Cita
+```
 > Cita
 
-> otra cita
+```md
+> cita
 >
-> pero con varias lineas o parrafos
+> en varias líneas
+```
+> cita
+>
+> en varias líneas
 <hr width=75%>
 
+```md
 `Código inline`
 ``Código inline``
 ```Código inline```
 ````Código inline````
+```
+`Código inline`
 
+~~~md
+```md
+Código
+en varias lineas
+```
+~~~
 ```md
 Código
 en varias lineas
