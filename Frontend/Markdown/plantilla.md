@@ -104,31 +104,46 @@ Código
 en varias lineas
 ```
 ~~~
+
+```md
+~~~md
+Bloque de código
+pero usando ~
+~~~
+```
+
 ```md
 Código
 en varias lineas
 ```
-~~~
-Bloque de código
-pero usando ~
-~~~
 <hr width=75%>
-    
+
+```md
     texto preformado que ignora el markdown por ejemplo **negrita**
     con varias lineas
-
+```
+    texto preformado que ignora el markdown por ejemplo **negrita**
+    con varias lineas
 <hr width=75%>
-Lista con -
+
+```md
+Lista
 
 - elem 1
-- eleme 2
+- elem 2
 - elem 3
 
-Lista con +
++ elem 1
++ elem 2
++ elem 3
 
-+ mas 1
+* elem 1
+* elem 2
+* elem 3
+```
 
-Lista con *
+Lista
 
-* arteri 1
-
+- elem 1
+- elem 2
+- elem 3
